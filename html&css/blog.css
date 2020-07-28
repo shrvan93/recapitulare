@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-color: rgb(240, 247, 144);
+    width: 40em;
+    height: 25em;
+    margin: auto;
+    margin-top: 10em;
+}
+h3{
+    color: green;
+    font-family: sans-serif;
+    margin-left: 35%;
+    padding-top: 0.5em;
+    font-size: 2em;
+}
+
+span{
+    color: black;
+}
+h2 {
+    padding: 10px 0 10px 0;
+    color: rgb(78, 175, 207);
+    font-size: 2.5em;
+    margin-left: 30%;
+}
+.p1 {
+
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+}
+.p2{
+    color: rgb(78, 175, 207);
+    margin-left: 35%;
+    padding: 35px;
+}
