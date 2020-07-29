@@ -2,10 +2,41 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 div{
-    background-color: brown;
-    width: 40%;
+    width: 20%;
+    font-size: 1.2em;
+    margin: auto;
+    margin-top: 3em;
+    height: 30em;
+}
+form{
+    margin-top: 2em;
+    
+}
+input{
+    padding: 0.7em 0 0.7em 0;
+    font-size: 1.2em;
+    border: none;
+    width: 100%;
+}
+input[type=button] {
+    width: 65%;
+    cursor: pointer;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 30px;
+    margin-left: 6em;
+    margin-top: 1em;
+    color: white;
+}
+input[type=button]:hover{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(119,85,29,1) 0%, rgba(200,169,6,1) 100%);
+    translate: transition 1s;
+
+}
+textarea{
+    border: none;
     font-size: 1.2em;
 }
