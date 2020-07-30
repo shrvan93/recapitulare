@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ol{
+    /* background-color: burlywood; */
+    height: 3em;
+    float: right;
+    padding: 1em 0;
+    cursor: pointer;
+    margin-top: 1em;
+}
+ol>li{
+    display: inline;
+    list-style: none;
+    padding: 1.5em;
+}
+ol>li:hover{
+    border-top: 5px solid green;
+    color: goldenrod;
+    transition: ease 0.5s;
+}
