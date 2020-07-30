@@ -39,4 +39,5 @@ input[type=button]:hover{
 textarea{
     border: none;
     font-size: 1.2em;
+    resize: none;
 }
