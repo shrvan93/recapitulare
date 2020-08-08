@@ -1,16 +1,22 @@
-var num = document.getElementById("num1").value;
-var btn = document.getElementById("btn1").addEventListener('click', Gen)
+var age = document.getElementById("num1").value
+var num = document.getElementById("btn1").addEventListener('click', me)
 
-function Gen() {
-    
-    if(num >= 0 || num <= 6) {
-        console.log("Generation alpha")
-    }else if(num >=6 && num <= 20) {
-        console.log("Generation Z")
-    }else if(num >=21 && num <=35) {
-        console.log("Generation Y")
-    }else if(num >= 35 && num <= 50) {
-        console.log("Generation X")
+function me() {
+    if (age >= 70) {
+        alert("Builders")
+    }
+    else if (age >= 51) {
+        alert("Baby Boomers")
+    }
+    else if (age >= 36) {
+        alert("Generation X")
+    }
+    else if (age >= 21) {
+        alert("Generation Y")
+    }
+    else if (age >= 6) {
+        alert("Generaton Z")
+    } else {
+        alert("Generation Alpha")
     }
 }
-
