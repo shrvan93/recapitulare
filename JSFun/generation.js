@@ -1,5 +1,7 @@
-var age = document.getElementById("num1").value
-var num = document.getElementById("btn1").addEventListener('click', me)
+var age = document.getElementById("num1").value;
+var num = document.getElementById("btn1");
+
+num.addEventListener("click", me)
 
 function me() {
     if (age >= 70) {
@@ -20,3 +22,5 @@ function me() {
         alert("Generation Alpha")
     }
 }
+
+me();
